@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-owl-carousel",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "ember addon for owl.carousel",
   "keywords": [
     "ember-addon"
   ],
@@ -18,7 +18,11 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.3.0"
+    "broccoli-funnel": "^1.2.0",
+    "broccoli-merge-trees": "^2.0.0",
+    "ember-cli-babel": "^6.3.0",
+    "fastboot-transform": "^0.1.1",
+    "owl.carousel": "^2.2.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
