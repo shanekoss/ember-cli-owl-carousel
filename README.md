@@ -1,12 +1,10 @@
-# ember-cli-owl-carousel
+# ember-cli-owl-carousel2
 
-This README outlines the details of collaborating on this Ember addon.
+Fastboot compatible addon for [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/). It has no components yet, but will import JS.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-owl-carousel`
-* `npm install`
+* `ember install ember-cli-owl-carousel2`
 
 ## Running
 
