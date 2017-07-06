@@ -7,7 +7,7 @@ var mergeTrees = require('broccoli-merge-trees');
 var fbTransform = require('fastboot-transform');
 
 module.exports = {
-  name: 'ember-cli-owl-carousel',
+  name: 'ember-cli-owl-carousel2',
   included() {
     this._super(...arguments);
     this.import('vendor/owl.carousel.js');
