@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-owl-carousel2/components/owl-carousel2';
