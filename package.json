@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-owl-carousel2",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ember addon for owl.carousel2",
   "keywords": [
     "ember-addon"
@@ -11,7 +11,10 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dulmandakh/ember-cli-owl-carousel.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
