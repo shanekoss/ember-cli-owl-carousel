@@ -46,7 +46,23 @@ You can pass any valid Owl Carousel options to the component.
 And set callbacks by passing closure actions to the component
 
 ```
-{{#owl-carousel2 theme=false onDragged=(action 'dragged')}}
+{{#owl-carousel2 onDragged=(action 'dragged')}}
+  <div> Your Content </div>
+  <div> Your Content </div>
+{{/owl-carousel2}}
+```
+
+Also can pass navText and responsive options as JSON string. Please make sure that JSON.parse() can parse without errors.
+
+```
+{{#owl-carousel2 navText="[\"next\",\"prev\"]"}}
+  <div> Your Content </div>
+  <div> Your Content </div>
+{{/owl-carousel2}}
+```
+
+```
+{{#owl-carousel2 responsive='{ "320": { "items": 1 }, "1024": { "items": 2 }, "1600": { "items": 3 } }'}}
   <div> Your Content </div>
   <div> Your Content </div>
 {{/owl-carousel2}}
