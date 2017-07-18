@@ -1,7 +1,7 @@
 # ember-cli-owl-carousel2
 
 [![npm version](https://badge.fury.io/js/ember-cli-owl-carousel2.svg)](https://badge.fury.io/js/ember-cli-owl-carousel2)
-[![Dependency Status](https://david-dm.org/dulmandakh/ember-cli-owl-carousel2.svg)](https://david-dm.org/dulmandakh/ember-cli-owl-carousel2)
+[![Dependency Status](https://david-dm.org/dulmandakh/ember-cli-owl-carousel.svg)](https://david-dm.org/dulmandakh/ember-cli-owl-carousel)
 
 Fastboot compatible addon for [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/)
 
