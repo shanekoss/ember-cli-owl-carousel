@@ -9,7 +9,11 @@ export default Ember.Component.extend({
   theme: true,
   didInsertElement() {
     this._super(...arguments);
-    const carousel = Ember.$(this.element).owlCarousel(this.attrs);
+    const attrs = Ember.assign(this.attrs, {
+      navText: (typeof this.attrs.navText === 'string') && JSON.parse(this.attrs.navText),
+      responsive: (typeof this.attrs.responsive === 'string') && JSON.parse(this.attrs.responsive),
+    });
+    const carousel = Ember.$(this.element).owlCarousel(attrs);
     this.set('carousel', carousel);
   },
   willDestroyElement() {
