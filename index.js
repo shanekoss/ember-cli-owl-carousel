@@ -9,10 +9,13 @@ var fbTransform = require('fastboot-transform');
 module.exports = {
   name: 'ember-cli-owl-carousel2',
   getConfig() {
+    let app = this._findHost();
+    let options = typeof app.options === 'object' ? app.options : {};
+    
     return Object.assign({
       css: true,
       theme: 'default',
-    }, this.app.options['ember-cli-owl-carousel2']);
+    }, options['ember-cli-owl-carousel2']);
   },
   included() {
     this._super(...arguments);
