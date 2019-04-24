@@ -27,7 +27,7 @@
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-htmlbars-inline-precompile": "^0.4.3",
     "fastboot-transform": "^0.1.2",
-    "owl.carousel": "^2.2.0"
+    "owl.carousel": "^2.3.4"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
